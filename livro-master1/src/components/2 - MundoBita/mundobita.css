@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap');
+
+.fundob{
+    background: rgb(117,241,241);
+    background: -moz-linear-gradient(180deg, rgba(117,241,241,1) 30%, rgba(119,201,39,1) 63%, rgba(0,122,63,1) 99%);
+    background: -webkit-linear-gradient(180deg, rgba(117,241,241,1) 30%, rgba(119,201,39,1) 63%, rgba(0,122,63,1) 99%);
+    background: linear-gradient(180deg, rgba(117,241,241,1) 30%, rgba(119,201,39,1) 63%, rgba(0,122,63,1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#75f1f1",endColorstr="#007a3f",GradientType=1);
+}
+.container{
+    height: 80vh;
+    width: 90vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    overflow: hidden;
+}
+.text{
+    height: 67vh;
+    padding: 1vw;
+    overflow: hidden;
+    border-radius: 2vh;
+    background: #FAFAFA;
+}
+.caixatitulo{
+    height: 6vh;
+    overflow: hidden;
+    margin-bottom: 2vh;
+    margin-top:2vh;
+}
+.titulo{
+    flex-direction: row;
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.caixatexto{
+    overflow: hidden;
+    height: 53vh;
+    display: flex;
+}
+.textob{
+    font-size: 2.3vh;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    flex-direction: column;
+}
+
+/*botoes*/
+.botoes{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 13vh;
+    overflow: hidden;
+}
+@media (max-width: 768px){
+    .botoes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.btn{
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 50%;
+    width: 4.2vw;
+    height: 4.2vw;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    align-self: center;
+    overflow: hidden;
+}
+button, a {
+    cursor: pointer;
+    overflow: hidden;
+}
+img{
+    height: 3vw;
+    align-self: center;
+    text-align: center;
+    padding-left: .3vw;
+    padding-top: .2vw;
+    overflow: hidden;
+}
